@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 openjdk:25-jdk-slim-bullseye
+FROM --platform=linux/amd64 openjdk:25-ea-17-jdk-slim-bookworm
 #FROM --platform=linux/amd64 openjdk:21-slim-bullseye
 
 RUN addgroup --system javauser && adduser --system --home /home/javauser --ingroup javauser javauser
